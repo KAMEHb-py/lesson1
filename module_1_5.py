@@ -1,0 +1,15 @@
+#fmean - среднее; или sum/len
+#list() - преобразование в список
+#dict() - преобразование в словарь
+#zip() - преобразование в пары
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+students_list = sorted(list(students))
+print(students_list)
+print(sum(grades[1])/len(grades[1]))
+average_grades = [sum(grades[0])/len(grades[0]),sum(grades[1])/len(grades[1]),sum(grades[2])/len(grades[2]),sum(grades[3])/len(grades[3]),sum(grades[4])/len(grades[4])]
+print(average_grades)
+journal = dict(zip(students_list, average_grades))
+print(journal)
+
+#пришлось почитать про синтаксис, я нашел несколько штук,которые мне помогли. как органично сделать список из средних значений, я не придумал
