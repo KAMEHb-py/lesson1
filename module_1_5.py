@@ -11,5 +11,3 @@ average_grades = [sum(grades[0])/len(grades[0]),sum(grades[1])/len(grades[1]),su
 print(average_grades)
 journal = dict(zip(students_list, average_grades))
 print(journal)
-
-#пришлось почитать про синтаксис, я нашел несколько штук,которые мне помогли. как органично сделать список из средних значений, я не придумал
